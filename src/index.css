@@ -204,7 +204,7 @@ Hero
   color: var(--clr-white);
   border-color: var(--clr-white);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   .hero {
     background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
       url("./images/main.jpeg") center/cover no-repeat;
@@ -519,8 +519,11 @@ Navbar
   height: 45px;
 }
 
+.nav-toggle {
+  display: none;
+}
 /* nav at bigger screen size */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 675px) {
   /* hide nav toggle button */
   .nav-toggle {
     display: none;
